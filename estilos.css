@@ -198,7 +198,7 @@ a {
 	margin-bottom: 60px;
 }
 
-.recetas_recomendadas .imagen {
+.main .recetas_recomendadas .imagen {
 	width: 100%;
 	display: block;
 }
@@ -214,18 +214,18 @@ a {
 
 /* -- Contenido Titulo y Controles -- */
 
-.contenido-titulo-controles {
+.main .contenido-titulo-controles {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.contenido-titulo-controles h3 {
+.main .contenido-titulo-controles h3 {
     color: #ff0000;
     font-size: 30px;
 }
 
-.contenido-titulo-controles .indicadores button{
+.main .contenido-titulo-controles .indicadores button{
     background: #000;
     height: 3px;
     width: 10px;
@@ -234,27 +234,27 @@ a {
     margin-right: 2px;
 }
 
-.contenido-titulo-controles .indicadores button:hover,
-.contenido-titulo-controles .indicadores button.activo {
+.main .contenido-titulo-controles .indicadores button:hover,
+.main .contenido-titulo-controles .indicadores button.activo {
     background: red;
 }
 
 
 /* -- Contenido principal y Flechas -- */
 
-.recetas_recomendadas {
+.main .recetas_recomendadas {
     margin-bottom: 70px;
 }
 
-.recetas_recomendadas .contenido_principal{
+.main .recetas_recomendadas .contenido_principal{
     display: flex;
     align-items: center;
     position: relative;
 }
 
 
-.recetas_recomendadas .contenido_principal .flecha-izquierda,
-.recetas_recomendadas .contenido_principal .flecha-derecha{
+.main .recetas_recomendadas .contenido_principal .flecha-izquierda,
+.main ..recetas_recomendadas .contenido_principal .flecha-derecha{
     position: absolute;
     border: none;
     background: rgba(0, 0, 0, 0.3);
@@ -269,29 +269,29 @@ a {
     transition: .2s ease all;
 }
 
-.recetas_recomendadas .contenido_principal .flecha-izquierda:hover,
-.recetas_recomendadas .contenido_principal .flecha-derecha:hover {
+.main .recetas_recomendadas .contenido_principal .flecha-izquierda:hover,
+.main .recetas_recomendadas .contenido_principal .flecha-derecha:hover {
     background: rgba(0, 0, 0, 0.9);
 }
 
-.recetas_recomendadas .contenido_principal .flecha-izquierda{
+.main .recetas_recomendadas .contenido_principal .flecha-izquierda{
     left: 0;
 }
 
-.recetas_recomendadas .contenido_principal .flecha-derecha{
+.main .recetas_recomendadas .contenido_principal .flecha-derecha{
     right: 0;
 }
 
 /* -- Carrusel-- */
 
-.recetas_recomendadas .contenido-carrusel{
+.main .recetas_recomendadas .contenido-carrusel{
     width: 100%;
     padding: 20px, 0;
     overflow: hidden;
     scroll-behavior: smooth;
 }
 
-.recetas_recomendadas .contenido-carrusel .carrusel{
+.main .recetas_recomendadas .contenido-carrusel .carrusel{
     display: flex;
 }
 
