@@ -226,10 +226,25 @@ a {
     align-items: center;
 }
 
-.contenido-titulo-controles h3{
+.contenido-titulo-controles h3 {
     color: #ff0000;
     font-size: 30px;
 }
+
+.contenido-titulo-controles .indicadores button{
+    background: #000;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+
+.contenido-titulo-controles .indicadores button:hover,
+.contenido-titulo-controles .indicadores button.activo {
+    background: red;
+}
+
 
 /* -- Contenido principal y Flechas -- */
 
@@ -246,8 +261,8 @@ a {
 
 
 
-.recetas_recomendadas .contenido_principal .flecha_izquierda,
-.recetas_recomendadas .contenido_principal .flecha_derecha{
+.recetas_recomendadas .contenido_principal .flecha-izquierda,
+.recetas_recomendadas .contenido_principal .flecha-derecha{
     position: absolute;
     border: none;
     background: rgba(0, 0, 0, 0.3);
