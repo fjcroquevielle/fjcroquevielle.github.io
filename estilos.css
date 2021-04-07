@@ -277,16 +277,16 @@ a {
     transition: .2s ease all;
 }
 
-.recetas_recomendadas .contenido_principal .flecha_izquierda:hover,
-.recetas_recomendadas .contenido_principal .flecha_derecha:hover {
+.recetas_recomendadas .contenido_principal .flecha-izquierda:hover,
+.recetas_recomendadas .contenido_principal .flecha-derecha:hover {
     background: rgba(0, 0, 0, 0.9);
 }
 
-.recetas_recomendadas .contenido_principal .flecha_izquierda{
+.recetas_recomendadas .contenido_principal .flecha-izquierda{
     left: 0;
 }
 
-.recetas_recomendadas .contenido_principal .flecha_derecha{
+.recetas_recomendadas .contenido_principal .flecha-derecha{
     right: 0;
 }
 
