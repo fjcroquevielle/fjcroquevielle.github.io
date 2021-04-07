@@ -64,7 +64,7 @@ a {
 }
 
 .header .contenedor-logo .logo .fas {
-	background: #ff0000;
+	background: #080404;
 	padding: 7px 12px;
 	border-radius: 4px;
 	font-size: 8px;
@@ -89,7 +89,7 @@ a {
 }
 
 .header .barra-busqueda input {
-	min-width: 60%;
+	min-width: 50%;
 	padding: 0 15px;
 	height: 35px;
 	line-height: 35px;
