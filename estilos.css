@@ -205,12 +205,12 @@ a {
 }
 
 .main .grid-imagenes .imagen {
-	width: 100%;
+	width: 48px;
 	display: block;
 }
 
 .main .grid-imagenes .imagen img {
-	width: 100%;
+	width: 48px;
 }
 
 /* ---- ---- ---- Mediaqueries ---- ---- ---- */
