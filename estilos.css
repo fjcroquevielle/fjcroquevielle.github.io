@@ -218,6 +218,40 @@ recetas_recomendadas .imagen {
     margin: auto;
 }
 
+/* -- Contenido principal y Flechas -- */
+
+.recetas_recomendadas {
+    
+}
+
+.recetas_recomendadas .contenido_principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.recetas_recomendadas .contenido_principal .flecha_izquierda{
+
+}
+
+.recetas_recomendadas .contenido_principal .flecha_derecha{
+    position: absolute;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s ease all;
+}
+
+
+
+
 /* ---- ---- ---- Mediaqueries ---- ---- ---- */
 @media screen and (max-width: 1200px) {
 	.main .recetas_recomendadas {
