@@ -226,6 +226,11 @@ a {
     align-items: center;
 }
 
+.contenido-titulo-controles h3{
+    color: #545454;
+    font-size: 30px;
+}
+
 /* -- Contenido principal y Flechas -- */
 
 .recetas_recomendadas {
