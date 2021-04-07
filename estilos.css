@@ -288,6 +288,7 @@ a {
     width: 100%;
     padding: 20px, 0;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .recetas_recomendadas .contenido-carrusel .carrusel{
