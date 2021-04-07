@@ -282,6 +282,18 @@ a {
     right: 0;
 }
 
+/* -- Carrusel-- */
+
+.recetas_recomendadas .contenido-carrusel{
+    width: 100%;
+    padding: 20px, 0;
+    overflow: hidden;
+}
+
+.recetas_recomendadas .contenido-carrusel .carrusel{
+    display: flex;
+}
+
 
 /* ---- ---- ---- Mediaqueries ---- ---- ---- */
 @media screen and (max-width: 1200px) {
