@@ -204,7 +204,7 @@ a {
 	grid-template-columns: repeat(4, 1fr);
 }
 
-recetas_recomendadas .imagen {
+.recetas_recomendadas .imagen {
 	width: 100%;
 	display: block;
 }
@@ -218,10 +218,18 @@ recetas_recomendadas .imagen {
     margin: auto;
 }
 
+/* -- Contenido Titulo y Controles -- */
+
+.contenido-titulo-controles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* -- Contenido principal y Flechas -- */
 
 .recetas_recomendadas {
-    
+    margin-bottom: 70px;
 }
 
 .recetas_recomendadas .contenido_principal{
@@ -242,7 +250,7 @@ recetas_recomendadas .imagen {
     height: 50%;
     top: calc(50% - 25%);
     line-height: 40px;
-    width: 50px;
+    width: 50px; 
     color: #fff;
     cursor: pointer;
     z-index: 500;
