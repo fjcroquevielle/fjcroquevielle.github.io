@@ -230,10 +230,10 @@ recetas_recomendadas .imagen {
     position: relative;
 }
 
-.recetas_recomendadas .contenido_principal .flecha_izquierda{
 
-}
 
+
+.recetas_recomendadas .contenido_principal .flecha_izquierda,
 .recetas_recomendadas .contenido_principal .flecha_derecha{
     position: absolute;
     border: none;
@@ -249,7 +249,18 @@ recetas_recomendadas .imagen {
     transition: .2s ease all;
 }
 
+.recetas_recomendadas .contenido_principal .flecha_izquierda:hover,
+.recetas_recomendadas .contenido_principal .flecha_derecha:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
 
+.recetas_recomendadas .contenido_principal .flecha_izquierda{
+    left: 0;
+}
+
+.recetas_recomendadas .contenido_principal .flecha_derecha{
+    right: 0;
+}
 
 
 /* ---- ---- ---- Mediaqueries ---- ---- ---- */
